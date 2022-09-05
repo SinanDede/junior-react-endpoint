@@ -1,0 +1,106 @@
+.thumbnails-container {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    width: 79px;
+    text-align: center;  
+}
+
+.thumbnail-style {
+    max-width: 79px;
+    max-height: 80px;
+    cursor: pointer;
+}
+
+.selected-image-container {
+    position: absolute;
+    left: 219px;
+    top: 160px;
+    width: 610px;
+    height: 511px;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.current-Image {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.attributes-container {
+    position: absolute;
+    top: 160px;
+    left: 929px;
+    width: fit-content;
+    height: 595px;
+    height: 595px;
+}
+
+.product-brand {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    color: #1D1F22;
+}
+
+.product-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 27px;
+    color: #1D1F22;
+    margin-bottom: 43px;
+}
+
+.product-price-name {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1D1F22;
+}
+
+.product-price {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    color: #1D1F22;
+}
+
+.add-to-cart-btn {
+    width: 292px;
+    height: 52px;
+    background: #5ECE7B;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.product-description {
+    width: 292px;
+}
+
+.product-description p {
+    height: 103px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.96%;
+    color: #1D1F22;
+}
